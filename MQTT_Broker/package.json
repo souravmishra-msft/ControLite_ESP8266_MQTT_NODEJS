@@ -1,0 +1,22 @@
+{
+  "name": "MQTT_Broker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "broker.js",
+  "scripts": {
+    "start": "node broker",
+    "start-dev": "nodemon broker"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^14.2.0",
+    "mongoose": "^6.1.7",
+    "mosca": "^2.8.3",
+    "mqtt": "^4.3.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}

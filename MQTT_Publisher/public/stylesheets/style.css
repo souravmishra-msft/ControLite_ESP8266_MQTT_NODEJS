@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Nunito", sans-serif;
+  }
+
+  .container {
+      padding-top: 20px;
+  }
+
+  .jumbotron {
+      background-color: rgb(95, 94, 94);
+      color:#ffff;
+      border-radius: 20px;
+      padding: 30px;
+  }
+
+  #localDetails {
+    height: auto;
+    width: auto;
+    /* border:2px rgb(0, 81, 255) solid; */
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  #localDetails p {
+    font-size: 12px;
+  }
+
+  #locDetails {
+    height: auto;
+    width: auto;
+    border-radius: 15px;
+    background-color: rgb(120, 120, 121);
+    margin: 10px 50px 10px 50px;
+    padding: 10px;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  #needle i{
+    height:20px;
+    width:30px;
+    margin-top:0px;
+    /* Initial value for rotate is needed for transition to work */
+    transform:rotate(90);
+
+    /* CSS transition creates smooth effect */
+    transition:all 1.5s;
+  }
+
+  #mainLogo {
+    width: 50px;
+    height: 60px;
+  }
+
+  #navLogo {
+    width: 40px;
+    height: 40px;
+  }
+
+  .navbar-text {
+    color: #ffff;
+  }
+
+
+  .container {
+      margin: 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly;
+  }
+
+  button {
+      width: 100%;
+      border: none;
+      display: inline-block;
+      color: #ffff;
+      margin-top: 30px;
+      /* margin: 10px; */
+      text-decoration: none;
+  }
+
+  hr {
+    height: 2px;
+    border-width: 0;
+    color: rgb(59, 59, 59);
+    background-color: gray;
+  }
+
+  .status-icon {
+      margin: 20px;
+      padding: 10px;
+  }
+
+  .status-icon .light {
+    font-weight: 700;
+    font-size: 100px;
+    color:rgb(195, 195, 197);
+    text-align: center;
+    /* text-shadow:1px 1px 10px rgb(253, 207, 3), 1px 1px 10px rgb(247, 225, 153); */
+  }
+
+  .status-icon p {
+      font-size: 30px;
+      color: rgb(10, 10, 10);
+  }
